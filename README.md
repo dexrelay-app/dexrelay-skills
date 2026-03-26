@@ -56,11 +56,3 @@ path: dexrelay-install
 
 - Install `dexrelay-setup` for the full setup, repair, and governance workflow.
 - Install `dexrelay-install` only if you want the narrow install-oriented alias.
-
-## Existing users
-
-If a Mac still has the old tap from `chetanankola/dexrelay`, remove it once before using the shorter DexRelay install command:
-
-```bash
-brew untap chetanankola/dexrelay
-```
