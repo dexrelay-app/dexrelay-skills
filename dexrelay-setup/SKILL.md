@@ -74,7 +74,7 @@ The required prerequisite state is:
 Preferred install command:
 
 ```bash
-brew install dexrelay-app/dexrelay/dexrelay && dexrelay install
+brew tap dexrelay-app/dexrelay && brew install dexrelay && dexrelay install
 ```
 
 Fallback when Homebrew is unavailable or blocked:

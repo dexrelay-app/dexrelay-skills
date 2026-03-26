@@ -12,7 +12,7 @@ If this skill triggers, use the full `dexrelay-setup` workflow and keep the user
 Preferred install command:
 
 ```bash
-brew install dexrelay-app/dexrelay/dexrelay && dexrelay install
+brew tap dexrelay-app/dexrelay && brew install dexrelay && dexrelay install
 ```
 
 Fallback:
