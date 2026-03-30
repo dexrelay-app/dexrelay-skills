@@ -2,29 +2,22 @@
 
 This folder is the publishable source for `dexrelay-app/dexrelay-skills`.
 
+These skills should always match the current DexRelay product model:
+
+1. install DexRelay on the Mac
+2. run `dexrelay pair`
+3. scan the QR on the phone
+4. use local Wi-Fi first
+5. use Tailscale fallback away from Wi-Fi
+6. use `dexrelay status` and `dexrelay repair` if something breaks
+
 Expected repo shape:
 
 - `README.md`
 - `dexrelay-setup/SKILL.md`
 - `dexrelay-install/SKILL.md`
 
-Recommended install target:
-
-```bash
-https://github.com/dexrelay-app/dexrelay-skills/tree/main/dexrelay-setup
-```
-
-Install-oriented alias:
-
-```bash
-https://github.com/dexrelay-app/dexrelay-skills/tree/main/dexrelay-install
-```
-
-The primary skill is `dexrelay-setup`. `dexrelay-install` is a narrow alias for users who search for install-specific wording.
-
-## Install in Codex
-
-Preferred skill:
+Primary install target:
 
 ```text
 https://github.com/dexrelay-app/dexrelay-skills/tree/main/dexrelay-setup
@@ -36,23 +29,6 @@ Install alias:
 https://github.com/dexrelay-app/dexrelay-skills/tree/main/dexrelay-install
 ```
 
-If the user is already in Codex, the simplest path is to use the built-in `skill-installer` skill and point it at one of the GitHub URLs above.
+Publish rule:
 
-Equivalent GitHub repo form:
-
-```text
-repo: dexrelay-app/dexrelay-skills
-path: dexrelay-setup
-```
-
-or:
-
-```text
-repo: dexrelay-app/dexrelay-skills
-path: dexrelay-install
-```
-
-## What to install
-
-- Install `dexrelay-setup` for the full setup, repair, and governance workflow.
-- Install `dexrelay-install` only if you want the narrow install-oriented alias.
+If DexRelay onboarding, repair behavior, or public install guidance changes, update these skill sources before the next release script publishes the skills repo.
