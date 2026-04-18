@@ -227,7 +227,7 @@ Use governance refresh when:
 - DexRelay was reinstalled
 - the user moved to a new Mac
 - the command center looks stale
-- project-local `.codex` metadata is missing or outdated
+- project-local `.dexrelay` metadata is missing or outdated
 - a backend or service was added and the phone app does not discover it
 
 Prefer project-local governance files over inventing app-local state.
