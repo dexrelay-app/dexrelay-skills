@@ -7,8 +7,8 @@ description: Initialize, repair, and normalize per-project governance for Codex-
 
 Keep the source of truth inside each project repo:
 
-- `.codex/project-runbook.json`
-- `.codex/project-governance.json`
+- `.dexrelay/project-runbook.json`
+- `.dexrelay/project-governance.json`
 
 Do not treat the iPhone app or command-center snapshot as the only source of project behavior. Those layers index and expose project state; they do not replace project-local metadata.
 
@@ -22,22 +22,22 @@ Do not treat the iPhone app or command-center snapshot as the only source of pro
 
 ## Default Commands
 
-From `/Users/chetanankola/src/Codex iphone App`:
+From any Mac with DexRelay installed:
 
 ```bash
-python3 scripts/governancectl.py update-project --project-path "/abs/path/to/project"
-python3 scripts/governancectl.py update-unmanaged
-python3 scripts/governancectl.py update-all
+python3 "$HOME/Library/Application Support/DexRelay/runtime/scripts/governancectl.py" update-project --project-path "/abs/path/to/project"
+python3 "$HOME/Library/Application Support/DexRelay/runtime/scripts/governancectl.py" update-unmanaged
+python3 "$HOME/Library/Application Support/DexRelay/runtime/scripts/governancectl.py" update-all
 ```
 
 ## Rules
 
-1. Prefer project-local `.codex` metadata over inventing app-local state.
+1. Prefer project-local `.dexrelay` metadata over inventing app-local state.
 2. If a backend is introduced, ensure governance is updated before treating the service as managed.
 3. If command center is out of sync, repair project files first, then rebuild the snapshot.
-4. Do not introduce a parallel `.dex` metadata tree unless the user explicitly asks for a migration plan.
+4. Do not introduce a parallel metadata tree unless the user explicitly asks for a migration plan.
 
 ## References
 
-- `/Users/chetanankola/src/Codex iphone App/scripts/governancectl.py`
-- `/Users/chetanankola/src/Codex iphone App/docs/PROJECT_GOVERNANCE.md`
+- DexRelay runtime script: `~/Library/Application Support/DexRelay/runtime/scripts/governancectl.py`
+- Project governance guide: `docs/PROJECT_GOVERNANCE.md`

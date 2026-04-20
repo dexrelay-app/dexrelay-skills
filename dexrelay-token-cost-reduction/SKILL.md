@@ -9,8 +9,8 @@ Optimize the codebase for narrow future edits.
 
 Before a major DexRelay refactor, read:
 
-1. [docs/DEXRELAY_ARCHITECTURE.md](/Users/chetanankola/src/Codex%20iphone%20App/docs/DEXRELAY_ARCHITECTURE.md)
-2. [docs/CODEX_CONTEXT_MAP.md](/Users/chetanankola/src/Codex%20iphone%20App/docs/CODEX_CONTEXT_MAP.md)
+1. `docs/DEXRELAY_ARCHITECTURE.md`
+2. `docs/CODEX_CONTEXT_MAP.md`
 
 Do not split hot files without understanding where they sit in the iPhone app ↔ bridge ↔ app-server topology.
 
