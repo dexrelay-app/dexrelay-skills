@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay ASC Screenshot Studio"
+  short_description: "Generate and upload App Store screenshot sets with ASC"
+  default_prompt: "Use $dexrelay-asc-screenshot-studio to generate the best App Store screenshots and upload them."

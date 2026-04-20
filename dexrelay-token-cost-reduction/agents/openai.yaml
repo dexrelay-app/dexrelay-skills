@@ -1,0 +1,7 @@
+interface:
+  display_name: "DexRelay Token Cost Reduction"
+  short_description: "Structure code for narrow, cheap future edits"
+  default_prompt: "Use $dexrelay-token-cost-reduction to restructure this project for lower future Codex token cost without hurting performance."
+
+policy:
+  allow_implicit_invocation: true

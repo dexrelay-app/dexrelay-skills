@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay Xcode Build"
+  short_description: "Get Apple projects building, signing, and running"
+  default_prompt: "Use $dexrelay-xcode-build to get this Apple project building in Xcode, repair signing or provisioning if needed, and prefer simulator fallback when device signing is not required."

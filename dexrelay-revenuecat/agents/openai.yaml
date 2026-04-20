@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay RevenueCat"
+  short_description: "Implement RevenueCat for iOS apps"
+  default_prompt: "Use $dexrelay-revenuecat to add RevenueCat subscriptions, paywalls, and entitlement gating to this iOS app."

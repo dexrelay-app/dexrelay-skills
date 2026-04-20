@@ -11,11 +11,21 @@ These skills should always match the current DexRelay product model:
 5. use Tailscale fallback away from Wi-Fi
 6. use `dexrelay status` and `dexrelay repair` if something breaks
 
-Expected repo shape:
+Expected repo contents:
 
 - `README.md`
-- `dexrelay-setup/SKILL.md`
-- `dexrelay-install/SKILL.md`
+- `dexrelay-install/`
+- `dexrelay-setup/`
+- `dexrelay-governance/`
+- `dexrelay-repair/`
+- `dexrelay-token-cost-reduction/`
+- `dexrelay-asc-cli/`
+- `dexrelay-asc-screenshot-studio/`
+- `dexrelay-aso-seo-optimizer/`
+- `dexrelay-app-icon/`
+- `dexrelay-revenuecat/`
+- `dexrelay-xcode-cache-repair/`
+- `dexrelay-xcode-build/`
 
 Primary install target:
 
@@ -32,3 +42,12 @@ https://github.com/dexrelay-app/dexrelay-skills/tree/main/dexrelay-install
 Publish rule:
 
 If DexRelay onboarding, repair behavior, or public install guidance changes, update these skill sources before the next release script publishes the skills repo.
+
+Never publish `dexrelay-admin-*` from here.
+
+Verification:
+
+```bash
+python3 scripts/verify_dexrelay_skills_publish.py
+python3 scripts/verify_dexrelay_skills_publish.py --published-repo-url https://github.com/dexrelay-app/dexrelay-skills.git
+```

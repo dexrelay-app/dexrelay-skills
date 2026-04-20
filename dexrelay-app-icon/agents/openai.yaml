@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay App Icon"
+  short_description: "Create polished iOS app icon systems"
+  default_prompt: "Use $dexrelay-app-icon to design and produce a complete iOS app icon set for this app."

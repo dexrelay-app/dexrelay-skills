@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay ASO SEO Optimizer"
+  short_description: "App naming, ASO, SEO, and launch metadata help"
+  default_prompt: "Use $dexrelay-aso-seo-optimizer to research and draft high-conviction names, metadata, and launch copy for this app or website."

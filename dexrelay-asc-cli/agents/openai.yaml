@@ -1,0 +1,4 @@
+interface:
+  display_name: "DexRelay ASC CLI"
+  short_description: "Deploy any iOS app with asc CLI"
+  default_prompt: "Use $dexrelay-asc-cli to build, upload, and ship this iOS app with asc."
