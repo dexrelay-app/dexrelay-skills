@@ -10,7 +10,7 @@ This is the narrow install-facing alias for `dexrelay-setup`.
 Preferred install command:
 
 ```bash
-npm i -g dexrelay && dexrelay install
+npm i -g dexrelay
 ```
 
 Fallback:

@@ -49,7 +49,7 @@ This skill should handle the complete DexRelay operator path:
 ## Preferred install command
 
 ```bash
-npm i -g dexrelay && dexrelay install
+npm i -g dexrelay
 ```
 
 Fallback:
@@ -58,7 +58,7 @@ Fallback:
 curl -fsSL https://assets.dexrelay.app/install.sh | bash
 ```
 
-`dexrelay install` is expected to handle:
+The install flow is expected to handle:
 
 - Codex CLI install if needed
 - Node and Python dependency setup
@@ -236,7 +236,7 @@ Prefer project-local governance files over inventing app-local state.
 
 `dexrelay-setup` should be able to help with:
 
-- npm global install and `dexrelay install`
+- npm global install with automatic runtime bootstrap
 - helper, bridge, watchdog, and keep-awake verification
 - `dexrelay pair`
 - `dexrelay status`
