@@ -58,12 +58,6 @@ Fallback:
 curl -fsSL https://assets.dexrelay.app/install.sh | bash
 ```
 
-Secondary install path:
-
-```bash
-brew install dexrelay-app/dexrelay/dexrelay && dexrelay install
-```
-
 `dexrelay install` is expected to handle:
 
 - Codex CLI install if needed

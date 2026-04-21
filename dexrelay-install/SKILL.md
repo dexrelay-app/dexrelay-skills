@@ -19,12 +19,6 @@ Fallback:
 curl -fsSL https://assets.dexrelay.app/install.sh | bash
 ```
 
-Secondary install path:
-
-```bash
-brew install dexrelay-app/dexrelay/dexrelay && dexrelay install
-```
-
 Next step after install:
 
 ```bash
