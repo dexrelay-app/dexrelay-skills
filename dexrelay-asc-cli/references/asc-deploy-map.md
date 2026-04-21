@@ -17,10 +17,6 @@ Validated against:
 Install:
 
 ```bash
-brew install asc
-```
-
-```bash
 curl -fsSL https://asccli.sh/install | bash
 ```
 

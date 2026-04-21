@@ -15,8 +15,7 @@ Use this skill to drive App Store Connect releases with `asc` instead of ad hoc 
    - Confirm `asc` exists: `asc --help`
    - Confirm auth: `asc auth status`
    - Confirm auth health: `asc auth doctor`
-   - If `asc` is missing, install it with either:
-     - `brew install asc`
+   - If `asc` is missing, install it with:
      - `curl -fsSL https://asccli.sh/install | bash`
 
 2. Resolve app context before acting.

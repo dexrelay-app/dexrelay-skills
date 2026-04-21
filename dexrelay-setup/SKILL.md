@@ -236,7 +236,7 @@ Prefer project-local governance files over inventing app-local state.
 
 `dexrelay-setup` should be able to help with:
 
-- Homebrew install and `dexrelay install`
+- npm global install and `dexrelay install`
 - helper, bridge, watchdog, and keep-awake verification
 - `dexrelay pair`
 - `dexrelay status`
