@@ -49,13 +49,19 @@ This skill should handle the complete DexRelay operator path:
 ## Preferred install command
 
 ```bash
-brew tap dexrelay-app/dexrelay && brew install dexrelay && dexrelay install
+npm i -g dexrelay && dexrelay install
 ```
 
 Fallback:
 
 ```bash
 curl -fsSL https://assets.dexrelay.app/install.sh | bash
+```
+
+Secondary install path:
+
+```bash
+brew install dexrelay-app/dexrelay/dexrelay && dexrelay install
 ```
 
 `dexrelay install` is expected to handle:
