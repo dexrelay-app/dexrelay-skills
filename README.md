@@ -19,6 +19,7 @@ Expected repo contents:
 - `dexrelay-governance/`
 - `dexrelay-repair/`
 - `dexrelay-token-cost-reduction/`
+- `dexrelay-codex-speed-health/`
 - `dexrelay-asc-cli/`
 - `dexrelay-asc-screenshot-studio/`
 - `dexrelay-aso-seo-optimizer/`
